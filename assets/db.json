@@ -1,0 +1,111 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@mail.com",
+      "password": "password",
+      "age": 18,
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "name": "jack Doe",
+      "email": "jack@mail.com",
+      "password": "jackpassword",
+      "age": 27,
+      "isAdmin": false
+    },
+    {
+      "name": "vivek",
+      "email": "vivek@mail.com",
+      "password": "Abc@12345",
+      "age": 18,
+      "id": 3
+    },
+    {
+      "name": "kailash",
+      "email": "kailash@mail.com",
+      "password": "Abc@12345",
+      "age": 18,
+      "id": 4
+    },
+    {
+      "name": "johhny jack",
+      "email": "johnyjack@mail.com",
+      "password": "Aaa@12345678",
+      "age": "18",
+      "id": 5
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "Mission impossible",
+      "location": "Goregaon",
+      "genre": "action",
+      "rating": "5",
+      "showTime": [
+        {
+          "date": "2020-01-01",
+          "time": [
+            "12.12pm",
+            "13.14pm",
+            "14.15pm"
+          ]
+        },
+        {
+          "date": "2020-01-02",
+          "time": [
+            "12.12pm",
+            "13.14pm",
+            "14.15pm"
+          ]
+        }
+      ],
+      "price": "500",
+      "isShowRunning": 0,
+      "ticketavialable": 100
+    },
+    {
+      "id": 2,
+      "name": "The Shawshank Redemption",
+      "location": "Goregaon",
+      "genre": "drama/crime",
+      "rating": "5",
+      "showTime": [
+        {
+          "date": "2020-01-01",
+          "time": [
+            "12.12pm",
+            "13.14pm",
+            "14.15pm"
+          ]
+        }
+      ],
+      "price": "500",
+      "isShowRunning": 1,
+      "ticketavialable": 1
+    },
+    {
+      "id": 3,
+      "name": "The friends",
+      "location": "Malad",
+      "genre": "drama/crime",
+      "rating": "5",
+      "showTime": [
+        {
+          "date": "2020-01-01",
+          "time": [
+            "12.12pm",
+            "13.14pm",
+            "14.15pm"
+          ]
+        }
+      ],
+      "price": "600",
+      "isShowRunning": 1,
+      "ticketavialable": 2
+    }
+  ]
+}
