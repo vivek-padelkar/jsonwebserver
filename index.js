@@ -11,6 +11,9 @@ const port = process.env.JSONPORT || 5024 // <== You can change the port
 server.use(middlewares)
 server.use(router)
 
+server.get('/', (req, res) => {
+  res.send('welcome')
+})
 server.listen(port, () => {
   console.log('its running on port=' + port)
 })
